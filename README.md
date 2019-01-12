@@ -1,6 +1,6 @@
-# getClass.react
+# getClass.js
 
-[![getClass.react on NPM](https://img.shields.io/npm/v/getClass.react.svg?style=flat-square)](https://www.npmjs.com/package/getClass.react)
+[![getClass.js on NPM](https://img.shields.io/npm/v/getClass.js.svg?style=flat-square)](https://www.npmjs.com/package/getClass.js)
 
 Better react class names.
 
@@ -13,14 +13,14 @@ Follow these steps to get started:
 
 ### Usage
 
-getClass.react is a simple, small (< 1KB), dependency-free utility that allows you to dynamically set class names for React components.  You can use it in a variety of ways:
+getClass.js is a simple, small (< 1KB), dependency-free utility that allows you to dynamically set class names for React components.  You can use it in a variety of ways:
 
 1. Use strings to add classes.
 2. Use objects to add classes conditionally.
 3. Use arrays with an object to express if/else classes.
 4. Classes are never duplicated.
 
-getClass.react draws inspiration from the Angular `ng-class` method.
+getClass.js draws inspiration from the Angular `ng-class` method.
 
 ```es6
 getClass('apple', {'pie': true})  // output -> 'apple pie'
@@ -67,16 +67,16 @@ Inside a react component:
 
 ### Install
 
-Using NPM, install getClass.react, and save it to your `package.json` dependencies.
+Using NPM, install getClass.js, and save it to your `package.json` dependencies.
 
 ```bash
-$ npm install getClass.react --save
+$ npm install getClass.js --save
 ```
 
 Then import, naming it according to your preference.
 
 ```es6
-import getClass from 'getClass.react'
+import getClass from 'getClass.js'
 ```
 
 ## Browser Support
