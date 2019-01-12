@@ -81,7 +81,7 @@ import getClass from 'getclass.react'
 
 ## Browser Support
 
-Rallax depends on the following browser APIs:
+getClass.react depends on the following browser APIs:
 
 * [Object.keys](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys)
 
