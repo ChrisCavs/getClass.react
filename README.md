@@ -18,6 +18,7 @@ getClass.react is a simple, small (< 1KB), dependency-free utility that allows y
 1. Use strings to add classes.
 2. Use objects to add classes conditionally.
 3. Use arrays with an object to express if/else classes.
+4. Classes are never duplicated.
 
 getClass.react draws inspiration from the Angular `ng-class` method.
 
@@ -33,6 +34,10 @@ getClass(
   {'apple': true}, 
   {'pie': true}
 )  // output -> 'apple pie'
+
+getClass('apple', {
+  'apple': true
+}) // output -> 'apple'
 
 getClass({
   [1 + 2 === 3]: ['apple', 'pie'],
@@ -55,7 +60,9 @@ Inside a react component:
     'pie': this.props.sample,
     'is-good': this.props.badSample
   })}
-/>  // className='apple pie'
+/>  
+
+// className='apple pie'
 ```
 
 ### Install
