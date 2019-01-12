@@ -1,5 +1,5 @@
 {
-  "name": "getClass.react",
+  "name": "getClass.js",
   "version": "1.0.0",
   "description": "Better react classes",
   "main": "dist/getClass.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisCavs/getClass.react.git"
+    "url": "git+https://github.com/ChrisCavs/getClass.js.git"
   },
   "keywords": [
     "class, classes, getclass, react, react-classes"
