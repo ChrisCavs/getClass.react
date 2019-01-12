@@ -1,6 +1,6 @@
 # getClass.react
 
-[![getClass.js on NPM](https://img.shields.io/npm/v/getClass.react.svg?style=flat-square)](https://www.npmjs.com/package/getClass.react)
+[![getClass.js on NPM](https://img.shields.io/npm/v/getclass.react.svg?style=flat-square)](https://www.npmjs.com/package/getclass.react)
 
 Better react class names.
 
