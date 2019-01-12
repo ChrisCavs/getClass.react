@@ -70,13 +70,13 @@ Inside a react component:
 Using NPM, install getClass.react, and save it to your `package.json` dependencies.
 
 ```bash
-$ npm install getClass.react --save
+$ npm install getclass.react --save
 ```
 
 Then import, naming it according to your preference.
 
 ```es6
-import getClass from 'getClass.react'
+import getClass from 'getclass.react'
 ```
 
 ## Browser Support
