@@ -69,6 +69,14 @@ Inside a react component:
 />  
 
 // className='apple pie'
+
+<SampleComponent
+  className={getClass('apple', {
+    [this.props.badSample]: ['pie', 'soda']
+  })}
+/> 
+
+// className = 'apple soda'
 ```
 
 ### Install
