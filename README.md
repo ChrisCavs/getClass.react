@@ -4,8 +4,6 @@
 
 Better react class names.
 
-## Usage
-
 Follow these steps to get started:
 
 1. [Why](#why)
