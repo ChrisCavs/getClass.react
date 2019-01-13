@@ -30,6 +30,10 @@ getClass({
   'pie': false
 })  // output -> 'apple'
 
+getClass({
+  [1 + 2 === 3]: ['apple', 'pie']
+})  // output -> 'apple'
+
 getClass(
   {'apple': true}, 
   {'pie': true}
@@ -38,11 +42,6 @@ getClass(
 getClass('apple', {
   'apple': true
 }) // output -> 'apple'
-
-getClass({
-  [1 + 2 === 3]: ['apple', 'pie'],
-  [1 + 2 !== 3]: ['apple', 'pie']
-})  // output -> 'apple pie'
 
 getClass('apple', {
   'pie': 1 + 2 === 3,
