@@ -8,8 +8,17 @@ Better react class names.
 
 Follow these steps to get started:
 
-1. [Usage](#usage)
-2. [Install](#install)
+1. [Why](#why)
+2. [Usage](#usage)
+3. [Install](#install)
+
+### Why
+
+This is not the first utility released designed to make adding classNames easier in React.  However, this is the smallest, fastest, and most fully featured utility available.  Key differences between `getClass` and other alternatives:
+
+* allows the use of if/else classes (see [usage](#usage))
+* written in the fewest lines of code possible
+* maintained in ES6
 
 ### Usage
 
