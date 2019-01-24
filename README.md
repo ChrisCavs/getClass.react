@@ -32,19 +32,29 @@ getClass.react draws inspiration from the Angular `ng-class` method.
 ```es6
 getClass('apple', {'pie': true})  // output -> 'apple pie'
 
+// **standard use
+
 getClass({
   'apple': true,
   'pie': false
-})  // output -> 'apple'
-
-getClass({
-  [1 + 2 === 3]: ['apple', 'pie']
 })  // output -> 'apple'
 
 getClass(
   {'apple': true}, 
   {'pie': true}
 )  // output -> 'apple pie'
+
+// **if/else
+
+getClass({
+  [1 + 2 === 3]: ['apple', 'pie']
+})  // output -> 'apple'
+
+getClass(
+  `${1 + 2 === 3 ? 'apple' : 'pie'}`
+)  // output -> 'apple'
+
+// **complex use
 
 getClass('apple', {
   'apple': true
